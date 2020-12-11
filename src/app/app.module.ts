@@ -8,6 +8,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { BlogComponent } from './components/blog/blog.component';
 import { LinksComponent } from './components/links/links.component';
+import { CommentsComponent } from './components/comments/comments.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { LinksComponent } from './components/links/links.component';
     AppComponent,
     CarouselComponent,
     BlogComponent,
-    LinksComponent
+    LinksComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,

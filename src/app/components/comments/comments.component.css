@@ -1,0 +1,50 @@
+.com-emoticons {
+  width: 12em;  
+  display: inline-block;
+  background: no-repeat center center;  
+  background-size: 100% 100%;
+  color: #ffc107;  
+  vertical-align: middle;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+.btn-add {
+  align-self: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-outline-orange {
+  color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-outline-orange:hover {
+  color: #fff;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-outline-orange:focus, .btn-outline-orange.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 166, 0, 0.900);
+}
+
+.btn-outline-orange.disabled, .btn-outline-orange:disabled {
+  color: #fd7e14;
+  background-color: transparent;
+}
+
+.btn-outline-orange:not(:disabled):not(.disabled):active, .btn-outline-orange:not(:disabled):not(.disabled).active,
+.show > .btn-outline-orange.dropdown-toggle {
+  color: #fff;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-outline-orange:not(:disabled):not(.disabled):active:focus, .btn-outline-orange:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-orange.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 166, 0, 0.900);
+}

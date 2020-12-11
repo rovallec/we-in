@@ -1,15 +1,18 @@
-<div class="view d-inline-block">
-  <label>
-    <h2 class="list-group"> 
-  
-    </h2>
-  </label>
-  <ul>
-    <li *ngFor="let item of items" class="nav nav-item">
-      <a href="{{ item.url }}" alt="{{ item.label }}" class="list-group-item list-group-item-action active">
-        {{ item.label }}
-      </a>        
-    </li>                  
-  </ul>
-</div>  
- 
+<mdb-card cascade = "true" style="margin-top: 10px;">
+  <div style="overflow-x: auto;">
+    <table class="table table-responsive table-light" style="margin-top: 10px;">
+      <head>
+        <th></th>
+      </head>
+      <tbody *ngFor="let item of items">
+        <tr>
+          <td class="md-tabs tabs-1">
+            <a href="{{ item.url }}" alt="{{ item.label }}">
+              {{ item.label }}
+            </a>        
+          </td>
+        </tr>    
+      </tbody>
+    </table>
+  </div>
+</mdb-card>
