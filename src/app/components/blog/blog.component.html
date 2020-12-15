@@ -13,15 +13,27 @@
           <!-- end Card Image-->
 
           <mdb-card-body cascade="true" class="text-center pb-0 px-0">
+            <svg class="svg-icon before" width="45px" height="45px" (mouseleave)="setIcon1()" (mouseenter)="setIcon1()" [ngClass]="{ 'svg-blue':icon1 === false, 'svg-blue-hover':icon1 === true}"><use xlink:href="assets/family.svg#family"></use></svg>
+            <svg class="svg-icon before" width="45px" height="45px" (mouseleave)="setIcon2()" (mouseenter)="setIcon2()" [ngClass]="{ 'svg-red':icon2 === false, 'svg-red-hover':icon2 === true}"><use xlink:href="assets/care.svg#care"></use></svg>
+            <svg class="svg-icon before" width="45px" height="45px" (mouseleave)="setIcon3()" (mouseenter)="setIcon3()" [ngClass]="{ 'svg-orange':icon3 === false, 'svg-orange-hover':icon3 === true}"><use xlink:href="assets/create.svg#create"></use></svg>
+            <svg class="svg-icon before" width="45px" height="45px" (mouseleave)="setIcon4()" (mouseenter)="setIcon4()" [ngClass]="{ 'svg-violet':icon4 === false, 'svg-violet-hover':icon4 === true}"><use xlink:href="assets/compromise.svg#compromise"></use></svg>
+            <svg class="svg-icon before" width="45px" height="45px" (mouseleave)="setIcon5()" (mouseenter)="setIcon5()" [ngClass]="{ 'svg-yellow':icon5 === false, 'svg-yellow-hover':icon5 === true}"><use xlink:href="assets/results.svg#results" alt="Calidad Humana"></use></svg>
             <h4 class="card-title">
               <strong>
                 {{ item.title }}
               </strong>
-            </h4>
+            </h4>         
             <!--
-              En este espacio se colocarán los íconos de las redes sociales.
+              Aqui se colocan los iconos
+              <img src="/assets/family.ico">   
+
+              we like       - azul
+              we care       - rosado
+              we create     - naranja 
+              we compromise - purple
+              we can        - green
             -->
-            <mdb-card-text class="text-justify text-wrap mw-95">
+            <mdb-card-text class="text-justify text-wrap mw-95">              
               <p style="padding-left: 40px; padding-right: 40px;">
                 {{ item.comentary }}
               </p>

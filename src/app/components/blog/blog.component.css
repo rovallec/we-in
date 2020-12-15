@@ -1,0 +1,113 @@
+.svg-blue {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  stroke: none;
+  fill: #063b71; 
+  border: 2px solid #063b71;
+}
+
+.svg-blue-hover {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  background-color: #063b71;
+  fill: #fff; 
+  border: 2px solid #fff;
+}
+
+.svg-red {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  stroke: none;
+  fill: #f9423a; 
+  border: 2px solid #f9423a;
+}
+
+.svg-red-hover {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  background-color: #f9423a;
+  fill: #fff;
+  border: 2px solid #fff;
+}
+
+.svg-orange {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  stroke: none;
+  fill: #ff5c39; 
+  border: 2px solid #ff5c39;
+}
+
+.svg-orange-hover {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  background-color: #ff5c39;
+  fill: #fff;
+  border: 2px solid #fff;
+}
+
+.svg-violet {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  stroke: none;
+  fill: #5c0279; 
+  border: 2px solid #5c0279;
+}
+
+.svg-violet-hover {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  background-color: #5c0279;
+  fill: #fff;
+  border: 2px solid #fff;
+}
+
+.svg-yellow {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  stroke: none;
+  fill: #ffd602; 
+  border: 2px solid #ffd602;
+}
+
+.svg-yellow-hover {  
+  margin-right: 5px; 
+  padding-bottom: 4px; 
+  padding-top: 1px; 
+  border-radius: 100%; 
+  background-color: #ffd602;
+  fill: #fff;
+  border: 2px solid #fff;
+}
+
+
+.circle {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.img-icon {
+  max-width: 50px; 
+  max-height: 50px;
+  min-width: 10px;
+}

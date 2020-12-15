@@ -9,12 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class LinksComponent implements OnInit {  
    
   items: {}[] = [
-    { url: 'https://www.facebook.com/nearsolgt/', label: 'Facebook' },
-    { url: 'https://www.instagram.com/nearsolgt/?hl=es-la', label: 'Instagram' },
-    { url: 'https://gt.linkedin.com/company/nearsol', label: 'Linkedin' },
-    { url: 'https://twitter.com/nearsol?lang=es', label: 'Twitter' },
-    { url: 'https://www.youtube.com/channel/UC_QcWRKM7db2yVbjd3gOvOg', label: 'Youtube' },
-    { url: 'https://www.tiktok.com/@nearsolgt?lang=es', label: 'TikTok' }
+    { url: 'https://www.aido.es/estrellas-de-mar/', label: '¿Sabias que...?' },
+    { url: 'https://www.instagram.com/nearsolgt/?hl=es-la', label: 'Directorio telefónico Nearsol' },
+    { url: 'https://gt.linkedin.com/company/nearsol', label: '8vo aniversario Nearsol' },    
+    { url: 'https://www.tiktok.com/@nearsolgt/video/6855360985398578438?lang=es&sender_device=pc&sender_web_id=6906306792935753222&is_from_webapp=1', label: 'Nearsol Family' }    
   ];
 
   constructor() { }
