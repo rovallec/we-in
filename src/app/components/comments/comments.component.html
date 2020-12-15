@@ -1,6 +1,6 @@
-<mdb-card cascade = "true" style="margin-top: 10px; margin-right: ;" >
+<mdb-card cascade = "true" style="margin-top: 10px; margin-right: 5;" >
   <div class="com-emoticons navbar-toggler-icon" style="font-size: 1.2rem; align-self: center; margin-top: 15px;">
-      <mdb-icon *ngFor="let icon of icons" fas icon="{{ icon.name }}" class="fa-lg"></mdb-icon>  
+      <mdb-icon *ngFor="let icon of icons" fas icon="{{ icon.name }}" class="fa-lg " style="margin-right: 5px;"></mdb-icon>  
   </div>
 
   <div class="section" style="margin-left: 15px; margin-right: 15px;">
@@ -9,13 +9,13 @@
       <div class="md-form primary">
         <mdb-icon fas icon="pencil-alt" class="prefix"></mdb-icon>
         <textarea type="text" id="form8" class="md-textarea form-control" mdbInput></textarea>
-        <label for="form8">Add comment</label>
+        <label for="form8">Add comment:</label>
       </div>   
       <!-- add new comment -->
 
       <!--  Multi Select tags -->
       <div class="form-group">
-        <label for="exampleFormControlSelect2">Select Tags</label>
+        <label for="exampleFormControlSelect2">Select Tags:</label>
         <select multiple class="form-control" id="exampleFormControlSelect2">
           <option *ngFor="let option of options">
             {{ option.label }}

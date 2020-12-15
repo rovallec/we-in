@@ -9,6 +9,11 @@
   align-self: center;
   align-content: center;
   text-align: center;
+  cursor: pointer;
+}
+
+a .lnk-emoticons {
+  color: #ffc107;
 }
 
 .btn-add {
