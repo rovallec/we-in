@@ -32,9 +32,17 @@
               <div class="d-flex">
                 <div class="mr-auto p-2">                
                     {{ item.writedby }}                    
-                </div>
-                <div class="p-2">
+                    <br>
+                    <div style="text-align: left;" class="font-italic small">
                     {{ item.date }}
+                  </div>
+                </div>                
+                <div class="p-2">
+                  <svg class="svg-icon before" width="25px" height="25px" (mouseleave)="setMiniIcon1()" (mouseenter)="setMiniIcon1()" [ngClass]="{ 'svg-blue':miniicon1 === false, 'svg-blue-hover':miniicon1 === true}"><use xlink:href="assets/family.svg#family"></use></svg>
+                  <svg class="svg-icon before" width="25px" height="25px" (mouseleave)="setMiniIcon2()" (mouseenter)="setMiniIcon2()" [ngClass]="{ 'svg-red':miniicon2 === false, 'svg-red-hover':miniicon2 === true}"><use xlink:href="assets/care.svg#care"></use></svg>
+                  <svg class="svg-icon before" width="25px" height="25px" (mouseleave)="setMiniIcon3()" (mouseenter)="setMiniIcon3()" [ngClass]="{ 'svg-orange':miniicon3 === false, 'svg-orange-hover':miniicon3 === true}"><use xlink:href="assets/create.svg#create"></use></svg>
+                  <svg class="svg-icon before" width="25px" height="25px" (mouseleave)="setMiniIcon4()" (mouseenter)="setMiniIcon4()" [ngClass]="{ 'svg-violet':miniicon4 === false, 'svg-violet-hover':miniicon4 === true}"><use xlink:href="assets/compromise.svg#compromise"></use></svg>
+                  <svg class="svg-icon before" width="25px" height="25px" (mouseleave)="setMiniIcon5()" (mouseenter)="setMiniIcon5()" [ngClass]="{ 'svg-yellow':miniicon5 === false, 'svg-yellow-hover':miniicon5 === true}"><use xlink:href="assets/results.svg#results" alt="Calidad Humana"></use></svg>                    
                 </div>
               </div>
             </div>

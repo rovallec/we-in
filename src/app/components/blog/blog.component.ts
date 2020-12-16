@@ -17,12 +17,18 @@ export class BlogComponent implements OnInit {
   icon3: boolean = false;
   icon4: boolean = false;
   icon5: boolean = false;
+  miniicon1: boolean = false;
+  miniicon2: boolean = false;
+  miniicon3: boolean = false;
+  miniicon4: boolean = false;
+  miniicon5: boolean = false;
+
 
 
   constructor() { }
 
   ngOnInit(): void {
-  }
+  }  
 
   setIcon1(){
     this.icon1 = !this.icon1;
@@ -42,5 +48,25 @@ export class BlogComponent implements OnInit {
 
   setIcon5(){
     this.icon5 = !this.icon5;
+  }
+
+  setMiniIcon1(){
+    this.miniicon1 = !this.miniicon1;
+  }
+  
+  setMiniIcon2(){
+    this.miniicon2 = !this.miniicon2;
+  }
+
+  setMiniIcon3(){
+    this.miniicon3 = !this.miniicon3;
+  }
+
+  setMiniIcon4(){
+    this.miniicon4 = !this.miniicon4;
+  }
+
+  setMiniIcon5(){
+    this.miniicon5 = !this.miniicon5;
   }
 }

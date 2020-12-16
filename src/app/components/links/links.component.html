@@ -17,29 +17,45 @@
   </div>
 </mdb-card>
 
-<div style="padding-top: 15px;">
-  <!--Facebook-->
-  <a class="px-2 icons-sm fb-ic primary" href="https://www.facebook.com/nearsolgt/">
-    <mdb-icon fab icon="facebook-f" size="2x"> </mdb-icon>
-  </a>
-  <!--Instagram-->
-  <a class="px-2 icons-sm li-ic" href="https://www.instagram.com/nearsolgt/?hl=es-la">
-    <mdb-icon fab icon="instagram" size="2x"> </mdb-icon>
-  </a>
-  <!--Linkedin-->
-  <a class="px-2 icons-sm li-ic" href="https://gt.linkedin.com/company/nearsol">
-    <mdb-icon fab icon="linkedin-in" size="2x"> </mdb-icon>
-  </a>
-  <!--Twitter-->
-  <a class="px-2 icons-sm tw-ic"  href="https://twitter.com/nearsol?lang=es">
-    <mdb-icon fab icon="twitter" size="2x"> </mdb-icon>
-  </a>
-  <!--Linkedin-->
-  <a class="px-2 icons-sm li-ic"  href="https://www.youtube.com/channel/UC_QcWRKM7db2yVbjd3gOvOg">
-    <mdb-icon fab icon="youtube" size="2x"> </mdb-icon>
-  </a>
-  <!--Twitter-->
-  <a class="px-2 icons-sm primary" href="https://www.tiktok.com/@nearsolgt?lang=es">
-    <mdb-icon fab icon="tiktok" size="2x"> </mdb-icon>      
-  </a>    
-</div>    
+<mdb-card cascade = "true" style="margin-top: 10px;">
+  <div style="overflow-x: auto;" style="margin-left: 15px; margin-right: 20px;">
+    <div>
+      <h3 class="encabezado">
+        View:
+      </h3>
+    </div>
+    <div class="body">
+      <mdb-checkbox [default]="true" *ngFor="let countrie of countries" [checked]="countrie.checked==='true'">{{ countrie.name }}</mdb-checkbox>
+    </div>      
+  </div>
+</mdb-card>
+
+<div class="flex">
+  <div style="padding-top: 15px;">
+    <!--Facebook-->
+    <a class="px-2 icons-sm fb-ic primary" href="https://www.facebook.com/nearsolgt/">
+      <mdb-icon fab icon="facebook-f" size="2x"> </mdb-icon>
+    </a>
+    <!--Instagram-->
+    <a class="px-2 icons-sm li-ic" href="https://www.instagram.com/nearsolgt/?hl=es-la">
+      <mdb-icon fab icon="instagram" size="2x"> </mdb-icon>
+    </a>
+    <!--Linkedin-->
+    <a class="px-2 icons-sm li-ic" href="https://gt.linkedin.com/company/nearsol">
+      <mdb-icon fab icon="linkedin-in" size="2x"> </mdb-icon>
+    </a>
+    <!--Twitter-->
+    <a class="px-2 icons-sm tw-ic"  href="https://twitter.com/nearsol?lang=es">
+      <mdb-icon fab icon="twitter" size="2x"> </mdb-icon>
+    </a>
+    <!--Linkedin-->
+    <a class="px-2 icons-sm li-ic"  href="https://www.youtube.com/channel/UC_QcWRKM7db2yVbjd3gOvOg">
+      <mdb-icon fab icon="youtube" size="2x"> </mdb-icon>
+    </a>
+    <!--Twitter-->
+    <a class="px-2 icons-sm primary" href="https://www.tiktok.com/@nearsolgt?lang=es">
+      <mdb-icon fab icon="tiktok" size="2x"> </mdb-icon>      
+    </a>    
+  </div>    
+  
+</div>

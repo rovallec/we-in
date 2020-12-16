@@ -15,6 +15,16 @@ export class LinksComponent implements OnInit {
     { url: 'https://www.tiktok.com/@nearsolgt/video/6855360985398578438?lang=es&sender_device=pc&sender_web_id=6906306792935753222&is_from_webapp=1', label: 'Nearsol Family' }    
   ];
 
+  countries: {}[] = [
+    { name: 'USA', checked: 'false'},
+    { name: 'Philippines', checked: 'false'},
+    { name: 'Mexico', checked: 'false'},
+    { name: 'Jamaica', checked: 'false'},
+    { name: 'Guatemala', checked: 'true'},
+    { name: 'Dominican Republic', checked: 'false'},
+    { name: 'Colombia', checked: 'false'}
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
